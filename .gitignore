@@ -1,0 +1,65 @@
+# 프로젝트 규칙 문서 (업로드 제외)
+RULES.md
+docs/instructions/
+
+# 컴파일 결과물 / 실행 파일
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# 오브젝트 / 중간 산출물
+*.o
+*.obj
+*.ilk
+*.pdb
+*.exp
+*.gch
+*.pch
+*.d
+
+# 프로그램 실행 결과물 (재생성 가능)
+out_*.pgm
+
+# 빌드 디렉터리
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+out/
+cmake-build-*/
+
+# CMake 생성 파일
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE / 에디터 설정
+.vs/
+.vscode/
+.idea/
+*.sln.docstates
+*.suo
+*.user
+*.vcxproj.user
+*.swp
+*~
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 로그 / 임시 파일
+*.log
+*.tmp
+
+# Claude Code 로컬 설정
+.claude/
